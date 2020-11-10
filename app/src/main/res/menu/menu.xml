@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/drawItem"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:title="Draw"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item android:id="@+id/shapeItem"
+                android:icon="@drawable/shape"
+                android:title="Shape"
+                app:showAsAction="never">
+
+                <menu>
+                    <item android:id="@+id/pointItem"
+                        android:title="Point"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/lineItem"
+                        android:title="Line"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/curlineItem"
+                        android:title="Сurved line"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/rectItem"
+                        android:title="Rectangle"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/ovalItem"
+                        android:title="Oval"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/colorItem"
+                android:icon="@drawable/ic_baseline_palette_24"
+                android:title="Color"
+                app:showAsAction="never">
+
+                <menu>
+                    <item
+                        android:id="@+id/redItem"
+                        android:icon="@drawable/red"
+                        android:title="Red"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/greenItem"
+                        android:icon="@drawable/green"
+                        android:title="Green"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/blueItem"
+                        android:icon="@drawable/blue"
+                        android:title="Blue"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/yellowItem"
+                        android:icon="@drawable/yellow"
+                        android:title="Yellow"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/blackItem"
+                        android:icon="@drawable/black"
+                        android:title="Black"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/whiteItem"
+                        android:icon="@drawable/white"
+                        android:title="White"
+                        app:showAsAction="never" />
+
+                </menu>
+            </item>
+
+            <item android:id="@+id/isFillItem"
+                android:icon="@drawable/isfill"
+                android:title="Fill"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/fillItem"
+                        android:icon="@drawable/fill"
+                        android:title="Fill"
+                        app:showAsAction="never" />
+
+                    <item android:id="@+id/strokeItem"
+                        android:icon="@drawable/stroke"
+                        android:title="Stroke"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+            
+        </menu>
+    </item>
+
+    <item android:id="@+id/fileItem"
+        android:icon="@drawable/file"
+        android:title="File"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/newItem"
+                android:icon="@drawable/add"
+                android:title="New"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/openItem"
+                android:icon="@drawable/img"
+                android:title="Open"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/saveItem"
+                android:icon="@drawable/save"
+                android:title="Save"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/shareItem"
+                android:icon="@drawable/share"
+                android:title="Share"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/quitItem"
+                android:icon="@drawable/quit"
+                android:title="Quit"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/undoItem"
+        android:icon="@drawable/undo"
+        android:title="Undo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/infoItem"
+        android:icon="@drawable/info"
+        android:title="Info"
+        app:showAsAction="never" />
+
+</menu>
